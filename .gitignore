@@ -1,0 +1,18 @@
+# Auth/secrets
+fish/conf.d/**/hosts.yml
+**/secrets.*
+**/tokens.*
+
+# Generated Tide files
+fish/functions/_tide_item_*
+fish/functions/_tide_cache_*
+fish/functions/tide/configure/
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+
+# Logs and caches
+*/logs/
+*/cache/
