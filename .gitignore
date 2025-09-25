@@ -8,6 +8,9 @@ fish/functions/_tide_item_*
 fish/functions/_tide_cache_*
 fish/functions/tide/configure/
 
+# Dynamic fish variables (contains prompt cache)
+fish/fish_variables
+
 # OS files
 .DS_Store
 *.swp
