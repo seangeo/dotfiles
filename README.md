@@ -19,8 +19,10 @@ cd ~/dotfiles
 # Create symlinks
 ./install.sh
 
-# Install Fisher plugins (Fisher + Tide)
-fisher install
+# Install Fisher and Tide
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish -o ~/.config/fish/functions/fisher.fish
+exec fish -c "fisher install jorgebucaran/fisher"
+exec fish -c "fisher install ilancosman/tide@v6"
 
 # Configure Tide prompt
 tide configure
